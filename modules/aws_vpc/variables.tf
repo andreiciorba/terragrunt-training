@@ -19,5 +19,6 @@ variable "private_subnet_cidrs" {
 }
 
 variable "azs" {
+  type = list(string)
   default = ["eu-west-3a", "eu-west-3b"]
 }
